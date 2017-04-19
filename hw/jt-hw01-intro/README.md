@@ -80,14 +80,14 @@ Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
 
 [INFO]
 [INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ homework1 ---
-[INFO] Building jar: /Users/yangbo/Projects/java/jt/jt-hw01-intro/target/jt-homework1.jar
+[INFO] Building jar: /Users/archcentric/Projects/java/jt/jt-hw01-intro/target/jt-homework1.jar
 [INFO]
 [INFO] --- maven-shade-plugin:2.4.3:shade (default) @ homework1 ---
 [INFO] Including org.apache.commons:commons-lang3:jar:3.4 in the shaded jar.
 [INFO] Replacing original artifact with shaded artifact.
-[INFO] Replacing /Users/yangbo/Projects/java/jt/jt-hw01-intro/target/jt-homework1.jar with /Users/yangbo/Projects/java/jt/jt-hw01-intro/target/homework1-0.0.1-SNAPSHOT-shaded.jar
-[INFO] Dependency-reduced POM written at: /Users/yangbo/Projects/java/jt/jt-hw-intro/dependency-reduced-pom.xml
-[INFO] Dependency-reduced POM written at: /Users/yangbo/Projects/java/jt/jt-hw-intro/dependency-reduced-pom.xml
+[INFO] Replacing /Users/archcentric/Projects/java/jt/jt-hw01-intro/target/jt-homework1.jar with /Users/archcentric/Projects/java/jt/jt-hw01-intro/target/homework1-0.0.1-SNAPSHOT-shaded.jar
+[INFO] Dependency-reduced POM written at: /Users/archcentric/Projects/java/jt/jt-hw-intro/dependency-reduced-pom.xml
+[INFO] Dependency-reduced POM written at: /Users/archcentric/Projects/java/jt/jt-hw-intro/dependency-reduced-pom.xml
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
@@ -124,7 +124,7 @@ java -jar target/jt-homework1.jar firstString secondString
 ./mvnw clean deploy
 ```
 
-命令将提示你输入**full name**, **Employee Id**和一个**comment** *(可选)*。
+命令将提示你输入**employee name**, **Employee Id**和一个**comment** *(可选)*。
 
 Example:
 
@@ -137,14 +137,14 @@ Example:
 [INFO] Executing tasks
 
 main:
-Your full name (e.g. Arch Centric):
-Arch Centric
-Your Empoyee Id (e.g. PPD006789):
+Your employee name (e.g. archcentric):
+archcentric
+Your Employee Id (e.g. PPD006789):
 PPD006789
 Comment:
 Java IO
-      [zip] Building zip: /Users/yangbo/Projects/java/jt/jt-hw01-intro/target/jt-howework1-PPD006789.zip
-   [delete] Deleting: /Users/yangbo/Projects/java/jt/jt-hw01-intro/homework.properties
+      [zip] Building zip: /Users/archcentric/Projects/java/jt/jt-hw01-intro/target/jt-howework1-PPD006789.zip
+   [delete] Deleting: /Users/archcentric/Projects/java/jt/jt-hw01-intro/homework.properties
 [INFO] Executed tasks
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS

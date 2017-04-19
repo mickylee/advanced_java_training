@@ -81,11 +81,11 @@
             <phase>deploy</phase>
             <configuration>
               <target>
-                <input message="Your employee name (e.g. yangbo): "                        addproperty="employee-name" />
-                <input message="Your Employee id (e.g. PPD006732): " addproperty="eid" />
+                <input message="Your employee name (e.g. archcentric): "                        addproperty="employee-name" />
+                <input message="Your Employee Id (e.g. PPD006789): " addproperty="eid" />
                 <input message="Comment: "                                    addproperty="comment" />
                 <echo file="homework.properties" append="false">
-                  full-name=${employee-name}${line.separator}eid=${eid}${line.separator}homework-number=${project.name}${line.separator}comment=${comment}
+                  employee-name=${employee-name}${line.separator}eid=${eid}${line.separator}homework-number=${project.name}${line.separator}comment=${comment}
                 </echo>
                 <basename property="build-directory-name" file="${project.build.directory}"/>
                 <zip destfile="${project.build.directory}/${project.name}-${eid}.zip">
