@@ -25,7 +25,7 @@ todo
 
 ### 参考资料
 
-todo
+- [《Java Fundamentals by ZeroTurnaround》](https://github.com/JavaFundamentalsZT) 本课程的主要参考
 
 
 
