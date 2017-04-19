@@ -13,7 +13,7 @@ todo
 
 | 课时数 | 课时标题 | 编程作业 |
 |:-----:|:--------|:-------|
-|第 1 课| [介绍](lecture\Java高级编程_-_Lecture_1_-_课程介绍.pptx) | [编程作业01](hw\jt-hw01-intro) |
+|第 1 课| [介绍](lecture/Java高级编程_-_Lecture_1_-_课程介绍.pptx) | [编程作业01](hw/jt-hw01-intro) |
 
 
 ### 相关资源
